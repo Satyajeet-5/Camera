@@ -1,7 +1,7 @@
-Flask
-tensorflow-lite
+Flask==3.0.3
+tensorflow-lite==2.8.2
 opencv-python-headless==4.5.3.56
 pandas==1.1.5
 gdown==3.13.0
-deepface
+deepface0.0.67
 gunicorn
