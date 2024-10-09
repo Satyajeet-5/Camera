@@ -20,7 +20,7 @@ def compare_faces():
     img2 = cv2.imdecode(np.frombuffer(image2.read(), np.uint8), cv2.IMREAD_COLOR)
     
     # Compare faces with DeepFace
-    result = DeepFace.verify(img1, img2, model_name='MobileNet')
+    result = DeepFace.verify(img1, img2, model_name='OpenFace')
     message = "Faces match!" if result['verified'] else "Faces do not match!"
     
     return render_template('result.html', message=message)
