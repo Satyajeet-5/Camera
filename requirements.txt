@@ -1,5 +1,5 @@
 Flask==3.0.3
 deepface
-tensorflow==2.5.0
-keras==2.5.0
+tensorflow 
+tf-keras 
 gunicorn
