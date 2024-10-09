@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route('/install-deepface')
+@app.route('/')
 def install_deepface():
     try:
         # Run pip install command with --no-deps
